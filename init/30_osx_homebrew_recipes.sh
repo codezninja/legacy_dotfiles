@@ -7,6 +7,7 @@ is_osx || return 1
 # Homebrew recipes
 recipes=(
   bash
+  dnsmasq
   cowsay
   git
   git-extras
@@ -16,6 +17,7 @@ recipes=(
   lesspipe
   man2html
   mercurial
+  mysqlm
   nmap
   sl
   ssh-copy-id

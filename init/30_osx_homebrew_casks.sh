@@ -19,50 +19,42 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 # Homebrew casks
 casks=(
   # Applications
-  a-better-finder-rename
-  bettertouchtool
-  charles
-  chromium
-  chronosync
-  dropbox
-  fastscripts
+  appcleaner
   firefox
   google-chrome
-  gyazo
-  hex-fiend
-  istat-menus
-  iterm2
-  launchbar
-  macvim
-  moom
-  omnidisksweeper
-  race-for-the-galaxy
-  reaper
-  remote-desktop-connection
-  sonos
-  spotify
-  steam
-  synology-assistant
-  teamspeak-client
-  the-unarchiver
-  todoist
-  totalfinder
-  tower
-  transmission-remote-gui
+  launchrocket
+  quicklook-csv
+  skype
+  vagrant
+  charles
+  dropbox
+  flash
+  kaleidoscope
+  mongohub
+  radiant-player
+  sourcetree
+  virtualbox
+  chromium
+  evernote
+  github
+  ksdiff
+  onepassword
+  sequel-pro
+  sublime-text3
   vlc
   # Quick Look plugins
-  betterzipql
-  qlcolorcode
-  qlmarkdown
-  qlprettypatch
-  qlstephen
-  quicklook-csv
-  quicklook-json
-  quicknfo
-  suspicious-package
-  webp-quicklook
+  # betterzipql
+  # qlcolorcode
+  # qlmarkdown
+  # qlprettypatch
+  # qlstephen
+  # quicklook-csv
+  # quicklook-json
+  # quicknfo
+  # suspicious-package
+  # webp-quicklook
   # Color pickers
-  colorpicker-developer
+  # colorpicker-developer
   colorpicker-skalacolor
 )
 
