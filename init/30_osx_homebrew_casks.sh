@@ -20,6 +20,7 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 casks=(
   # Applications
   appcleaner
+  caffeine
   firefox
   google-chrome
   launchrocket
@@ -40,6 +41,7 @@ casks=(
   ksdiff
   onepassword
   sequel-pro
+  synergy
   sublime-text3
   vlc
   # Quick Look plugins
