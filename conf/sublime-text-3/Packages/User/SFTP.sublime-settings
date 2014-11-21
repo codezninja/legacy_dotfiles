@@ -1,0 +1,6 @@
+{
+    // If debug output should be printed to the console
+    // True or 1 outputs FTP/SFTP commands, 2 is more verbose
+    "debug": false
+    ,"debug_log_file": "/home/ezbon/Desktop/sublime_sftp_debug.txt"
+}

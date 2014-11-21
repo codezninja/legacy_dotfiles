@@ -1,0 +1,26 @@
+{
+	"auto_complete_selector": "source, text",
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/appealr-color-scheme (SL).tmTheme",
+	"default_line_ending": "unix",
+	"detect_slow_plugins": true,
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"font_face": "Source Code Pro Medium",
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"show_full_path": true,
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+	"theme": "Soda Dark 3.sublime-theme",
+	"trailing_spaces_file_max_size": 10000,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": false,
+	"word_wrap": true
+}

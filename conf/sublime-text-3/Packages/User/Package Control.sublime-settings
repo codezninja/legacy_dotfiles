@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Appealr",
+		"Auto Semi-Colon",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"DocBlockr",
+		"Function Name Display",
+		"Grunt",
+		"JSONLint",
+		"LineEndings",
+		"Pretty JSON",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SVN",
+		"SyncedSideBar",
+		"Terminal",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"Whitespace"
+	]
+}
