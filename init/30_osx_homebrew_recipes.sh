@@ -17,7 +17,7 @@ recipes=(
   lesspipe
   man2html
   mercurial
-  mysqlm
+  mysql
   nmap
   sl
   ssh-copy-id
