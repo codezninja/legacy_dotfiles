@@ -23,6 +23,8 @@ recipes=(
   ssh-copy-id
   the_silver_searcher
   tree
+  ffmpeg
+  youtube-dl
 )
 
 brew_install_recipes

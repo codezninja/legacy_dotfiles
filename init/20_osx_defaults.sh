@@ -23,6 +23,10 @@ defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d h:mm:ss a
 #Enable Dark mode
 sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
 
+# Show remaining battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+defaults write com.apple.menuextra.battery ShowTime -string "YES"
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
@@ -112,9 +116,9 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "cfprefsd" \
-    "Dock" "Finder" "Mail""SystemUIServer" \
-    ; do
+for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
+    "Dock" "Finder" "Mail" "Messages" "Safari" "SizeUp" "SystemUIServer" \
+    "Transmission" "Twitter" "iCal"; do
     killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
