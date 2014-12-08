@@ -47,6 +47,26 @@ casks=(
   synergy
   sublime-text3
   vlc
+  alfred
+  bartender
+  clamxav
+  cleanmymac
+  colorpicker-skalacolor
+  fantastical
+  google-drive
+  imageoptim
+  jing
+  path-finder
+  remote-desktop-connection
+  spectacle
+  teamviewer
+  totals2
+  transmission
+  transmit
+  tvshows
+  virtualhostx
+  viscosity
+  xscope
   # Quick Look plugins
   # betterzipql
   # qlcolorcode
