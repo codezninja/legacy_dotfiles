@@ -19,6 +19,15 @@ brew_install_recipes
 # Hack to show the first-run brew-cask password prompt immediately.
 brew cask info this-is-somewhat-annoying 2>/dev/null
 
+# adobe-creative-cloud      cleanmymac      google-chrome       launchrocket    skype         transmit
+# alfred          colorpicker-skalacolor  google-drive        mongohub (!)    sourcetree        tvshows
+# appcleaner        dropbox     gopro-studio        onepassword (!)   spectacle       vagrant
+# bartender       evernote      imageoptim        path-finder     sublime-text3       virtualbox
+# caffeine        fantastical     java7         quicklook-csv   synergy         virtualhostx
+# charles         firefox     jing          radiant-player    teamviewer        viscosity
+# chromium        flash     kaleidoscope        remote-desktop-connection totals2         vlc
+# clamxav         github      ksdiff          sequel-pro      transmission        xscope
+
 # Homebrew casks
 casks=(
   # Applications

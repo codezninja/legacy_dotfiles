@@ -1,5 +1,5 @@
 {
     "exec_args": {
-        "path": "/home/ezbon/.nave/installed/0.10.32/bin"
+        "path": "/Users/ezjacob/.rbenv/shims:/usr/local/bin:/Users/ezjacob/.nave/installed/default/bin:/Users/ezjacob/.dotfiles/bin:/Users/ezjacob/.rbenv/shims:/Users/ezjacob/.dotfiles/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ezjacob/.dotfiles/vendor/rbenv/bin"
     }
 }

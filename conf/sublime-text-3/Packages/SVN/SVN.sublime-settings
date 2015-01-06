@@ -68,7 +68,7 @@
 
 	// The command line binary for an external diff tool. This command will
 	// be passed to the svn binary via the --diff-cmd flag
-	//,"diff_command": "/usr/bin/meld"
+	,"diff_command": "/usr/local/bin/ksdiff"
 	//,"diff_command": "C:\\Program Files (x86)\\WinMerge\\WinMergeU.exe"
 	//,"diff_command": "/usr/bin/opendiff"
 
