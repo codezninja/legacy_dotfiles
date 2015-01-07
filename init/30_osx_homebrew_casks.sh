@@ -7,8 +7,8 @@ is_osx || return 1
 # Ensure the cask keg and recipe are installed.
 kegs=(
   caskroom/cask
-    caskroom/versions
-    )
+  caskroom/versions
+  )
 brew_tap_kegs
 recipes=(brew-cask)
 brew_install_recipes
@@ -43,7 +43,7 @@ casks=(
   dropbox
   flash
   kaleidoscope
-  mongohub
+  jeromelebel-mongohub
   radiant-player
   sourcetree
   virtualbox
@@ -51,7 +51,7 @@ casks=(
   evernote
   github
   ksdiff
-  onepassword
+  1password-beta
   sequel-pro
   synergy
   sublime-text3
@@ -72,7 +72,7 @@ casks=(
   totals2
   transmission
   transmit
-  tvshows
+  # tvshows
   virtualhostx
   viscosity
   xscope
