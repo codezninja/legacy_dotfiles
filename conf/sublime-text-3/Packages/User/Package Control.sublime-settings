@@ -2,24 +2,23 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"Alignment",
 		"Appealr",
 		"Auto Semi-Colon",
 		"Autoprefixer",
+		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"ColorPicker",
+		"CSScomb",
 		"DocBlockr",
 		"Function Name Display",
 		"Grunt",
+		"IntelliDocs",
 		"JSONLint",
+		"LESS",
 		"LineEndings",
 		"Package Control",
 		"Pretty JSON",
@@ -35,6 +34,7 @@
 		"Terminal",
 		"Theme - Soda",
 		"TrailingSpaces",
+		"VCS Gutter",
 		"Whitespace"
 	]
 }
