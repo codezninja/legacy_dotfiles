@@ -1,0 +1,5 @@
+{
+    "debug": false,
+    "diff_command": "/usr/local/bin/ksdiff",
+    "svn_binary_path": "/usr/local/bin/svn"
+}
