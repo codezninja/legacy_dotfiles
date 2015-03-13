@@ -1,0 +1,1 @@
+{"url": "http://sublimecodeintel.github.io/SublimeCodeIntel/", "platforms": ["*"], "sublime_text": ">=3000", "version": "2.1.7+st3", "description": "Full-featured code intelligence and smart autocomplete engine", "dependencies": []}

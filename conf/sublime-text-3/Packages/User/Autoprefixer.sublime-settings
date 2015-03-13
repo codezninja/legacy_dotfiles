@@ -1,0 +1,4 @@
+{
+    "browsers": ["last 1 version", "> 10%", "ie 8", "ie 7"],
+    "cascade": true
+}

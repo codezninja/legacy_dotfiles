@@ -17,12 +17,14 @@ recipes=(
   lesspipe
   man2html
   mercurial
-  mysqlm
+  mysql
   nmap
   sl
   ssh-copy-id
   the_silver_searcher
   tree
+  ffmpeg
+  youtube-dl
 )
 
 brew_install_recipes

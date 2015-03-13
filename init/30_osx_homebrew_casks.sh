@@ -5,7 +5,10 @@ is_osx || return 1
 [[ ! "$(type -P brew)" ]] && e_error "Brew casks need Homebrew to install." && return 1
 
 # Ensure the cask keg and recipe are installed.
-kegs=(caskroom/cask)
+kegs=(
+  caskroom/cask
+  caskroom/versions
+  )
 brew_tap_kegs
 recipes=(brew-cask)
 brew_install_recipes
@@ -15,6 +18,15 @@ brew_install_recipes
 
 # Hack to show the first-run brew-cask password prompt immediately.
 brew cask info this-is-somewhat-annoying 2>/dev/null
+
+# adobe-creative-cloud      cleanmymac      google-chrome       launchrocket    skype         transmit
+# alfred          colorpicker-skalacolor  google-drive        mongohub (!)    sourcetree        tvshows
+# appcleaner        dropbox     gopro-studio        onepassword (!)   spectacle       vagrant
+# bartender       evernote      imageoptim        path-finder     sublime-text3       virtualbox
+# caffeine        fantastical     java7         quicklook-csv   synergy         virtualhostx
+# charles         firefox     jing          radiant-player    teamviewer        viscosity
+# chromium        flash     kaleidoscope        remote-desktop-connection totals2         vlc
+# clamxav         github      ksdiff          sequel-pro      transmission        xscope
 
 # Homebrew casks
 casks=(
@@ -31,7 +43,7 @@ casks=(
   dropbox
   flash
   kaleidoscope
-  mongohub
+  jeromelebel-mongohub
   radiant-player
   sourcetree
   virtualbox
@@ -39,11 +51,31 @@ casks=(
   evernote
   github
   ksdiff
-  onepassword
+  1password-beta
   sequel-pro
   synergy
   sublime-text3
   vlc
+  alfred
+  bartender
+  clamxav
+  cleanmymac
+  colorpicker-skalacolor
+  fantastical
+  google-drive
+  imageoptim
+  jing
+  path-finder
+  remote-desktop-connection
+  spectacle
+  teamviewer
+  totals2
+  transmission
+  transmit
+  # tvshows
+  virtualhostx
+  viscosity
+  xscope
   # Quick Look plugins
   # betterzipql
   # qlcolorcode
