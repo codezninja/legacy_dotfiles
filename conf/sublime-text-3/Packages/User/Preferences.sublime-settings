@@ -13,6 +13,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ColorPicker"
 	],
 	"show_full_path": true,
 	"soda_classic_tabs": true,
