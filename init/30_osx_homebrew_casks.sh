@@ -30,66 +30,80 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 
 # Homebrew casks
 casks=(
-  # Applications
-  appcleaner
-  caffeine
-  firefox
-  google-chrome
-  launchrocket
-  quicklook-csv
-  skype
-  vagrant
-  charles
-  dropbox
-  flash
-  kaleidoscope
-  jeromelebel-mongohub
-  radiant-player
-  sourcetree
-  virtualbox
-  chromium
-  evernote
-  github
-  ksdiff
-  1password-beta
-  sequel-pro
-  synergy
-  sublime-text3
-  vlc
-  alfred
-  bartender
-  clamxav
-  cleanmymac
-  colorpicker-skalacolor
-  fantastical
-  google-drive
-  imageoptim
-  jing
-  path-finder
-  remote-desktop-connection
-  spectacle
-  teamviewer
-  totals2
-  transmission
-  transmit
-  # tvshows
-  virtualhostx
-  viscosity
-  xscope
-  # Quick Look plugins
   # betterzipql
+  # Color pickers
+  # colorpicker-developer
   # qlcolorcode
   # qlmarkdown
   # qlprettypatch
   # qlstephen
+  # Quick Look plugins
   # quicklook-csv
   # quicklook-json
   # quicknfo
   # suspicious-package
+  # tvshows
   # webp-quicklook
-  # Color pickers
-  # colorpicker-developer
+  1password-beta
+  alfred
+  android-file-transfer
+  appcleaner
+  appdelete
+  bartender
+  bittorrent-sync
+  caffeine
+  charles
+  chromium
+  clamxav
+  cleanmymac
+  codekit
   colorpicker-skalacolor
+  cornerstone
+  dash
+  dropbox
+  evernote
+  fantastical
+  firefox
+  flash
+  github
+  google-chrome
+  google-drive
+  growlnotify
+  imageoptim
+  jeromelebel-mongohub
+  jing
+  kaleidoscope
+  ksdiff
+  launchrocket
+  little-snitch
+  packer
+  path-finder
+  postbox
+  quicklook-csv
+  radiant-player
+  remote-desktop-connection
+  sequel-pro
+  skype
+  slack
+  sourcetree
+  spectacle
+  ssh-tunnel-manager
+  sublime-text3
+  synergy
+  teamviewer
+  totalfinder
+  totals2
+  transmission
+  transmit
+  vagrant
+  vagrant-manager
+  virtualbox
+  viscosity
+  vlc
+  waltr
+  xquartz
+  xscope
+  xscope3
 )
 
 # Install Homebrew casks.
