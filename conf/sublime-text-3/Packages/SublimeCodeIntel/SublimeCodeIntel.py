@@ -62,7 +62,7 @@ Configuration files (`~/.codeintel/config' or `project_root/.codeintel/config').
 """
 from __future__ import print_function, unicode_literals
 
-VERSION = "2.1.8"
+VERSION = "2.1.9"
 
 import os
 import re
@@ -1390,7 +1390,7 @@ settings_manager = SettingsManager()
 
 
 # make sure all settings could be loaded and sublime is ready
-def codeintel_enabled(default=False):
+def codeintel_enabled(view=None, default=False):
     return settings_manager.sublime_auto_complete is not None
 
 
