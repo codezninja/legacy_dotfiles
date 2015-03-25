@@ -7,24 +7,62 @@ is_osx || return 1
 # Homebrew recipes
 recipes=(
   bash
-  dnsmasq
+  brew-cask
+  cairo
   cowsay
+  czmq
+  dnsmasq
+  emacs
+  eot-utils
+  ffmpeg
+  fontconfig
+  fontforge
+  freetype
+  gdbm
+  gettext
   git
   git-extras
+  glib
+  gobject-introspection
+  harfbuzz
   htop-osx
   hub
+  icu4c
   id3tool
+  jpeg
+  lame
   lesspipe
+  libevent
+  libffi
+  libpng
+  libtiff
+  libtool
+  libvo-aacenc
+  liquibase
   man2html
   mercurial
   mysql
+  mysql-connector-java
   nmap
+  openssl
+  pango
+  pcre
+  pixman
+  python
+  readline
   sl
+  sqlite
   ssh-copy-id
+  subversion
   the_silver_searcher
+  tmux
   tree
-  ffmpeg
+  wget
+  x264
+  xvid
+  xz
   youtube-dl
+  zeromq
 )
 
 brew_install_recipes
