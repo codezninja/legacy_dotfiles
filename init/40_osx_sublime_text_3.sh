@@ -5,9 +5,9 @@ is_osx || return 1
 sudo -v
 
 # Remove Directories to Symlink
-sudo rm -r ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
-sudo rm -r ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+# sudo rm -r ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
+sudo rm -r ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 # Symlink the conf files
-sudo ln -sf $DOTFILES/conf/sublime-text-3/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
-sudo ln -sf $DOTFILES/conf/sublime-text-3/Packages ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+# sudo ln -sf $DOTFILES/conf/sublime-text-3/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
+sudo ln -sf $DOTFILES/conf/sublime-text-3/Packages/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User

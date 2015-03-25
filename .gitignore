@@ -28,3 +28,4 @@ conf/sublime-text-3/Packages/User/Package Control.cache
 *.pub
 link/.vim/autoload/plug.vim
 link/.vim/autoload/plug.vim.old
+Package Control.last-run

@@ -1,4 +1,0 @@
-[
-    { "keys": ["super+ctrl+shift+t"], "command": "open_terminal" },
-    { "keys": ["super+ctrl+shift+alt+t"], "command": "open_terminal_project_folder" }
-]
