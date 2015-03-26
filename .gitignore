@@ -26,8 +26,6 @@ link/.ssh/github_rsa.pub
 conf/sublime-text-3/Packages/User/Package Control.cache
 *.pem
 *.pub
-link/.vim/autoload/plug.vim
-link/.vim/autoload/plug.vim.old
 Package Control.last-run
 conf/sublime-text-3/Packages
 !conf/sublime-text-3/Packages/User

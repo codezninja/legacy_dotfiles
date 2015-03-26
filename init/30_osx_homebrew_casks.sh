@@ -61,6 +61,7 @@ casks=(
   cornerstone
   dash
   dropbox
+  dropzone
   evernote
   fantastical
   firefox
