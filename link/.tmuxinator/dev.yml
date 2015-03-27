@@ -1,0 +1,17 @@
+# ~/.tmuxinator/dev.yml
+
+name: dev
+root: ~/
+windows:
+  - master:
+      layout: 0003,213x58,0,0{121x58,0,0[121x14,0,0,0,121x43,0,15,3],91x58,122,0,2}
+      panes:
+        - MediaLibrary:
+          - cd ~/Repos/trunk/angular
+          - svn up
+          - grunt
+        - Master:
+          - clear
+        - MyAws:
+          - ssh kit-aws-dev-ezbonu
+          - mux dev

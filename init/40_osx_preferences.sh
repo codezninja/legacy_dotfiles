@@ -10,7 +10,7 @@ is_osx || return 1
 #         return 1
 # fi
 
-e_header 'Symlinking MAX OSX Preferences'
+e_header 'Copying MAX OSX Preferences'
 
 DROPBOX_PREFERENCES="$HOME/Dropbox/MacPreferences/plists";
 PREFERENCE_LOCATION="Library/Preferences"
