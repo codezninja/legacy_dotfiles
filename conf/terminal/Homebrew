@@ -10,6 +10,8 @@
 	FFhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEXGFRyb290gAEIERojLTI3O0FIUF1k
 	cnR2e4aPl5qjtbi9AAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAL8=
 	</data>
+	<key>BlinkText</key>
+	<true/>
 	<key>CursorBlink</key>
 	<true/>
 	<key>CursorColor</key>
@@ -23,17 +25,19 @@
 	</data>
 	<key>CursorType</key>
 	<integer>0</integer>
+	<key>DisableANSIColor</key>
+	<false/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AoAAAAAAAAEBCAAoADWkFuZGFsZU1vbm/SExQVFlokY2xhc3NuYW1lWCRjbGFz
-	c2VzVk5TRm9udKIVF1hOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEaG1Ryb290gAEI
-	ERojLTI3PEJLUltiaXJ0dniDiJOco6avwcTJAAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAA
-	AAAAAAAAAMs=
+	YXNzI0AoAAAAAAAAEBCAAoADXxAYU2F1Y2VDb2RlUG93ZXJsaW5lLUxpZ2h00hMUFRZa
+	JGNsYXNzbmFtZVgkY2xhc3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJj
+	aGl2ZXLRGhtUcm9vdIABCBEaIy0yNzxCS1JbYmlydHZ4k5ijrLO2v9HU2QAAAAAAAAEB
+	AAAAAAAAABwAAAAAAAAAAAAAAAAAAADb
 	</data>
 	<key>FontAntialias</key>
-	<false/>
+	<true/>
 	<key>ProfileCurrentVersion</key>
 	<real>2.04</real>
 	<key>SelectionColor</key>
@@ -45,6 +49,8 @@
 	b3SAAQgRGiMtMjc7QUhOW2KDhYeMl6Coq7TGyc4AAAAAAAABAQAAAAAAAAAZAAAAAAAA
 	AAAAAAAAAAAA0A==
 	</data>
+	<key>TerminalType</key>
+	<string>xterm-256color</string>
 	<key>TextBoldColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -62,6 +68,121 @@
 	GFRyb290gAEIERojLTI3O0FITltih4mLkJukrK+4ys3SAAAAAAAAAQEAAAAAAAAAGQAA
 	AAAAAAAAAAAAAAAAANQ=
 	</data>
+	<key>UseBoldFonts</key>
+	<true/>
+	<key>keyMapBoundKeys</key>
+	<dict>
+		<key>$F702</key>
+		<string>[1;2D</string>
+		<key>$F703</key>
+		<string>[1;2C</string>
+		<key>$F708</key>
+		<string>[25~</string>
+		<key>$F709</key>
+		<string>[26~</string>
+		<key>$F70A</key>
+		<string>[28~</string>
+		<key>$F70B</key>
+		<string>[29~</string>
+		<key>$F70C</key>
+		<string>[31~</string>
+		<key>$F70D</key>
+		<string>[32~</string>
+		<key>$F70E</key>
+		<string>[33~</string>
+		<key>$F70F</key>
+		<string>[34~</string>
+		<key>$F728</key>
+		<string>[3;2~</string>
+		<key>F704</key>
+		<string>OP</string>
+		<key>F705</key>
+		<string>OQ</string>
+		<key>F706</key>
+		<string>OR</string>
+		<key>F707</key>
+		<string>OS</string>
+		<key>F708</key>
+		<string>[15~</string>
+		<key>F709</key>
+		<string>[17~</string>
+		<key>F70A</key>
+		<string>[18~</string>
+		<key>F70B</key>
+		<string>[19~</string>
+		<key>F70C</key>
+		<string>[20~</string>
+		<key>F70D</key>
+		<string>[21~</string>
+		<key>F70E</key>
+		<string>[23~</string>
+		<key>F70F</key>
+		<string>[24~</string>
+		<key>F710</key>
+		<string>[25~</string>
+		<key>F711</key>
+		<string>[26~</string>
+		<key>F712</key>
+		<string>[28~</string>
+		<key>F713</key>
+		<string>[29~</string>
+		<key>F714</key>
+		<string>[31~</string>
+		<key>F715</key>
+		<string>[32~</string>
+		<key>F716</key>
+		<string>[33~</string>
+		<key>F717</key>
+		<string>[34~</string>
+		<key>F728</key>
+		<string>[3~</string>
+		<key>^F700</key>
+		<string>[1;5A</string>
+		<key>^F701</key>
+		<string>[1;5B</string>
+		<key>^F702</key>
+		<string>[1;5D</string>
+		<key>^F703</key>
+		<string>[1;5C</string>
+		<key>^F728</key>
+		<string>[3;5~</string>
+		<key>~F702</key>
+		<string>b</string>
+		<key>~F703</key>
+		<string>f</string>
+		<key>~F704</key>
+		<string>[17~</string>
+		<key>~F705</key>
+		<string>[18~</string>
+		<key>~F706</key>
+		<string>[19~</string>
+		<key>~F707</key>
+		<string>[20~</string>
+		<key>~F708</key>
+		<string>[21~</string>
+		<key>~F709</key>
+		<string>[23~</string>
+		<key>~F70A</key>
+		<string>[24~</string>
+		<key>~F70B</key>
+		<string>[25~</string>
+		<key>~F70C</key>
+		<string>[26~</string>
+		<key>~F70D</key>
+		<string>[28~</string>
+		<key>~F70E</key>
+		<string>[29~</string>
+		<key>~F70F</key>
+		<string>[31~</string>
+		<key>~F710</key>
+		<string>[32~</string>
+		<key>~F711</key>
+		<string>[33~</string>
+		<key>~F712</key>
+		<string>[34~</string>
+		<key>~^F728</key>
+		<string>[3;5~</string>
+	</dict>
 	<key>name</key>
 	<string>Homebrew</string>
 	<key>type</key>

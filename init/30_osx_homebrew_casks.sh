@@ -8,6 +8,7 @@ is_osx || return 1
 kegs=(
   caskroom/cask
   caskroom/versions
+  caskroom/fonts
   )
 brew_tap_kegs
 recipes=(brew-cask)
@@ -105,6 +106,10 @@ casks=(
   xquartz
   xscope
   xscope3
+
+  #Fonts
+  font-source-code-pro
+  font-source-code-pro-for-powerline
 )
 
 # Install Homebrew casks.
