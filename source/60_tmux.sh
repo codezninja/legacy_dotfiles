@@ -1,0 +1,1 @@
+alias subl='reattach-to-user-namespace subl'
