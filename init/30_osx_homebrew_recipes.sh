@@ -18,6 +18,7 @@ recipes=(
   fontconfig
   fontforge
   freetype
+  gd
   gdbm
   gettext
   git
@@ -47,6 +48,8 @@ recipes=(
   openssl
   pango
   pcre
+  php55
+  php56
   pixman
   python
   readline
@@ -57,12 +60,14 @@ recipes=(
   the_silver_searcher
   tmux
   tree
+  unixodbc
   wget
   x264
   xvid
   xz
   youtube-dl
   zeromq
+  zlib
 )
 
 brew_install_recipes

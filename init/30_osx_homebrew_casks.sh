@@ -70,6 +70,7 @@ casks=(
   github
   google-chrome
   google-drive
+  gopro-studio
   growlnotify
   imageoptim
   jeromelebel-mongohub
@@ -78,6 +79,7 @@ casks=(
   ksdiff
   launchrocket
   little-snitch
+  macdown
   packer
   path-finder
   postbox
@@ -91,7 +93,6 @@ casks=(
   spectacle
   ssh-tunnel-manager
   sublime-text3
-  synergy
   teamviewer
   totalfinder
   totals2
