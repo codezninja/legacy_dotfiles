@@ -2,7 +2,7 @@
     // Live mode evaluates changes every time file is modified,
     // Set to false to disable evaluation after each input.
     // Restart Sublime Text to activate this change.
-    "live_mode": true,
+    "live_mode": false,
 
     // When set to true VcsGutter runs asynchronously in a seperate thread
     // This may cause a small delay between a modification and the icon change

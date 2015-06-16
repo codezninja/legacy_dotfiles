@@ -8,6 +8,7 @@
 		"Appealr",
 		"Auto Semi-Colon",
 		"Autoprefixer",
+		"Better CoffeeScript",
 		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Color Highlighter",
@@ -33,12 +34,10 @@
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-php",
-		"SVN",
 		"SyncedSideBar",
 		"Terminal",
 		"Theme - Soda",
 		"TrailingSpaces",
-		"VCS Gutter",
 		"Whitespace"
 	]
 }
