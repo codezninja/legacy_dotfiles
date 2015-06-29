@@ -63,3 +63,6 @@ Desktop.ini
 .swo
 .*.swp
 .*.swo
+
+*.sublime-workspace
+*.sublime-project
