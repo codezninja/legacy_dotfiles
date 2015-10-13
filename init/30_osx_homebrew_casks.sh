@@ -49,16 +49,15 @@ casks=(
   alfred
   android-file-transfer
   appcleaner
-  appdelete
   bartender
   bittorrent-sync
-  caffeine
   charles
   chromium
   clamxav
   cleanmymac
   codekit
   colorpicker-skalacolor
+  consul
   cornerstone
   dash
   dropbox
@@ -67,12 +66,18 @@ casks=(
   fantastical
   firefox
   flash
+  giffun
   github
   google-chrome
   google-drive
   gopro-studio
   growlnotify
+  handbrake
+  hipchat
   imageoptim
+  intellij-idea-bundled-jdk
+  iterm2
+  jenkins-lts
   jeromelebel-mongohub
   jing
   kaleidoscope
@@ -86,6 +91,7 @@ casks=(
   quicklook-csv
   radiant-player
   remote-desktop-connection
+  screenhero
   sequel-pro
   skype
   slack
@@ -93,6 +99,7 @@ casks=(
   spectacle
   ssh-tunnel-manager
   sublime-text3
+  suspicious-package
   teamviewer
   totalfinder
   totals2
@@ -105,7 +112,6 @@ casks=(
   vlc
   waltr
   xquartz
-  xscope
   xscope3
 
   #Fonts

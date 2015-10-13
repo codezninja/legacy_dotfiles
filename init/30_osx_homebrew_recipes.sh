@@ -7,11 +7,13 @@ is_osx || return 1
 # Homebrew recipes
 recipes=(
   bash
+  boot2docker
   brew-cask
   cairo
   cowsay
   czmq
   dnsmasq
+  docker
   emacs
   eot-utils
   ffmpeg
@@ -25,6 +27,7 @@ recipes=(
   git-extras
   glib
   gobject-introspection
+  groovy
   harfbuzz
   htop-osx
   hub
@@ -41,6 +44,7 @@ recipes=(
   libvo-aacenc
   liquibase
   man2html
+  maven
   mercurial
   mysql
   mysql-connector-java
@@ -51,8 +55,10 @@ recipes=(
   php55
   php56
   pixman
+  pkg-config
   python
   readline
+  reattach-to-user-namespace
   sl
   sqlite
   ssh-copy-id
