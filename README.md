@@ -111,7 +111,7 @@ There's a lot of stuff that requires admin access via `sudo`, so be warned that 
 ### Actual installation (for me)
 
 ```sh
-bash -c "$(curl -fsSL https://bit.ly/cowboy-dotfiles)" && source ~/.bashrc
+bash -c "$(curl -fsSL https://bit.ly/dotfiles-bondezbond)" && source ~/.bashrc
 ```
 
 ## Aliases and Functions
