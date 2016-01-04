@@ -235,4 +235,5 @@ Plug 'fatih/vim-go'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'pangloss/vim-javascript'
 Plug 'mhinz/vim-signify'
+Plug 'ahw/vim-pbcopy'
 call plug#end()
