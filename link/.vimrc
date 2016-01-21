@@ -8,12 +8,6 @@ nnoremap ; :
 nnoremap j gj
 nnoremap k gk
 
-" Disable arrow keys
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
-
 " Local dirs
 set backupdir=$DOTFILES/caches/vim
 set directory=$DOTFILES/caches/vim
@@ -207,6 +201,27 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 "let g:airline#extensions#tabline#fnamecollapse = 0
 "let g:airline#extensions#tabline#fnamemod = ':t'
 
+" NERDTree
+let NERDTreeShowHidden = 1
+let NERDTreeMouseMode = 2
+let NERDTreeMinimalUI = 1
+map <leader>n :NERDTreeToggle<CR>
+
+augroup NERDTree
+  autocmd!
+  autocmd StdinReadPre * let s:std_in=1
+  " If no file or directory arguments are specified, open NERDtree.
+  " If a directory is specified as the only argument, open it in NERDTree.
+  autocmd VimEnter *
+    \ if argc() == 0 && !exists("s:std_in") |
+    \   NERDTree |
+    \ elseif argc() == 1 && isdirectory(argv(0)) |
+    \   bd |
+    \   exec 'cd' fnameescape(argv(0)) |
+    \   NERDTree |
+    \ end
+augroup END
+
 " Signify
 let g:signify_vcs_list = ['git', 'hg', 'svn']
 
@@ -230,6 +245,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-unimpaired'
+Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'fatih/vim-go'
 Plug 'nathanaelkane/vim-indent-guides'
