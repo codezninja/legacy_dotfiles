@@ -22,3 +22,6 @@ fi
 
 #Terminal Notifier
 alias tmn="terminal-notifier -message"
+
+# Disable ansible cows }:]
+export ANSIBLE_NOCOWS=1

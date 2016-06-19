@@ -52,6 +52,12 @@ casks=(
   appcleaner
   bartender
   bittorrent-sync
+  # Applications
+  1password
+  a-better-finder-rename
+  aluxian-messenger
+  battle-net
+  bettertouchtool
   charles
   chromium
   clamxav
@@ -65,6 +71,8 @@ casks=(
   dropzone
   evernote
   fantastical
+  easysimbl
+  fastscripts
   firefox
   flash
   giffun
@@ -118,6 +126,43 @@ casks=(
   #Fonts
   font-source-code-pro
   font-source-code-pro-for-powerline
+  gyazo
+  hermes
+  hex-fiend
+  karabiner
+  launchbar
+  macvim
+  menumeters
+  midi-monitor
+  moom
+  omnidisksweeper
+  race-for-the-galaxy
+  reaper
+  scroll-reverser
+  seil
+  sonos
+  spotify
+  star-realms
+  steam
+  synology-assistant
+  teamspeak-client
+  the-unarchiver
+  todoist
+  tower
+  transmission-remote-gui
+  tunnelblick
+  ynab
+  # Drivers
+  d235j-xbox360-controller-driver
+  betterzipql
+  qlcolorcode
+  qlmarkdown
+  qlprettypatch
+  qlstephen
+  quicklook-json
+  quicknfo
+  webpquicklook
+  colorpicker-developer
 )
 
 # Install Homebrew casks.

@@ -6,10 +6,13 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
+  android-platform-tools
+  ansible
   bash
   boot2docker
   brew-cask
   cairo
+  cmatrix
   cowsay
   czmq
   dnsmasq
@@ -63,6 +66,7 @@ recipes=(
   sqlite
   ssh-copy-id
   subversion
+  terminal-notifier
   the_silver_searcher
   tmux
   tree
