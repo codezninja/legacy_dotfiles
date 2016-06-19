@@ -8,18 +8,32 @@ is_osx || return 1
 recipes=(
   android-platform-tools
   ansible
+  android-sdk
+  ant
+  apr
+  apr-util
+  autoconf
+  automake
+  aws-elasticbeanstalk
+  awscli
   bash
+  boost
   boot2docker
   brew-cask
   cairo
   cmatrix
+  consul
+  consul-template
   cowsay
   czmq
   dnsmasq
   docker
+  docker-compose
+  docker-machine
   emacs
   eot-utils
   ffmpeg
+  fig
   fontconfig
   fontforge
   freetype
@@ -29,36 +43,51 @@ recipes=(
   git
   git-extras
   glib
+  go
   gobject-introspection
-  groovy
+  gradle
+  graphviz
   harfbuzz
+  highlight
   htop-osx
+  httpd22
   hub
   icu4c
   id3tool
   jpeg
+  jq
   lame
   lesspipe
   libevent
   libffi
   libpng
+  libsodium
   libtiff
   libtool
   libvo-aacenc
+  libxml2
+  libyaml
   liquibase
+  lua
   man2html
   maven
   mercurial
+  mod_fastcgi
   mysql
+  mysql-connector-c
   mysql-connector-java
   nmap
+  oniguruma
   openssl
+  p7zip
   pango
   pcre
   php55
   php56
+  php56-opcache
   pixman
   pkg-config
+  pstree
   python
   readline
   reattach-to-user-namespace
@@ -67,9 +96,12 @@ recipes=(
   ssh-copy-id
   subversion
   terminal-notifier
+  terraform
   the_silver_searcher
   tmux
+  tomcat
   tree
+  unar
   unixodbc
   wget
   x264
