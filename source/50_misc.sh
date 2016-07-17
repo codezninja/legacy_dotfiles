@@ -25,3 +25,6 @@ alias tmn="terminal-notifier -message"
 
 # Disable ansible cows }:]
 export ANSIBLE_NOCOWS=1
+
+#CMatrix Shortcut
+alias cm='cmatrix -a -u 5 -s; clear'
