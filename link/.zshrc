@@ -5,7 +5,7 @@ export ZSH=~/.dotfiles/vendor/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -50,7 +50,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting) #zsh-syntax-highlighting must be last
+plugins=(git aws docker brew bundler wd jsontools urltools encode64 osx mvn sudo zsh-syntax-highlighting) #zsh-syntax-highlighting must be last
 
 # User configuration
 
