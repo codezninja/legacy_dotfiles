@@ -5,4 +5,5 @@ sudo mkdir -p /etc/resolver
 
 sudo tee /etc/resolver/dev >/dev/null <<EOF
 nameserver 127.0.0.1
+port 35353
 EOF
