@@ -50,7 +50,6 @@ recipes=(
   harfbuzz
   highlight
   htop-osx
-  httpd22
   hub
   icu4c
   id3tool
