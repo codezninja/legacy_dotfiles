@@ -2,7 +2,7 @@
 	"auto_complete_selector": "source, text",
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/appealr-color-scheme (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Hero Dark (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"draw_white_space": "all",
@@ -13,11 +13,18 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Makefile"
 	],
-	"show_full_path": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"show_full_path": false,
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
-	"theme": "Soda Dark 3.sublime-theme",
+	"tab_size": 2,
+	"theme": "Hero Dark.sublime-theme",
 	"trailing_spaces_file_max_size": 10000,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
