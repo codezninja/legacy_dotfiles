@@ -128,3 +128,5 @@ function npm-package() {
     npm install foo --save-dev && npm uninstall foo --save-dev
   fi
 }
+
+alias npm-exec='PATH=$(npm bin):$PATH'
