@@ -1,6 +1,8 @@
 export PATH
 PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
 
+PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
+
 # Set a specific version of node as the "default" for "nave use default"
 function nave_default() {
   local version

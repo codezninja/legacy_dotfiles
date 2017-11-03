@@ -33,3 +33,7 @@
 alias docker='docker --tlsverify=false'
 alias d="docker"
 alias dm='docker-machine'
+
+[ -f /usr/local/opt/dvm/dvm.sh ] && . /usr/local/opt/dvm/dvm.sh
+
+# eval $(docker-machine env)

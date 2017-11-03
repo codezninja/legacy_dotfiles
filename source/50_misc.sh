@@ -45,3 +45,5 @@ usage="dockertail (dev|pro) (tomcat | loggly | datadog) ip_address"
 
 
 eval $(thefuck --alias)
+
+alias mvndev='BUILD_VERSION=dev mvn package'

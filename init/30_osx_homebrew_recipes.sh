@@ -30,6 +30,7 @@ recipes=(
   docker
   docker-compose
   docker-machine
+  dvm
   emacs
   eot-utils
   ffmpeg
