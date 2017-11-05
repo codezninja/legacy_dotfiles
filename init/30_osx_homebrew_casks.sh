@@ -145,7 +145,6 @@ casks=(
   star-realms
   steam
   synology-assistant
-  teamspeak-client
   the-unarchiver
   todoist
   tower
