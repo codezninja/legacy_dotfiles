@@ -12,11 +12,11 @@ kegs=(
   homebrew/dupes
   )
 brew_tap_kegs
-recipes=(brew-cask)
-brew_install_recipes
+# recipes=(brew-cask)
+# brew_install_recipes
 
-# Exit if, for some reason, cask is not installed.
-[[ ! "$(brew ls --versions brew-cask)" ]] && e_error "Brew-cask failed to install." && return 1
+# # Exit if, for some reason, cask is not installed.
+# [[ ! "$(brew ls --versions brew-cask)" ]] && e_error "Brew-cask failed to install." && return 1
 
 # Hack to show the first-run brew-cask password prompt immediately.
 brew cask info this-is-somewhat-annoying 2>/dev/null
@@ -46,12 +46,13 @@ casks=(
   # suspicious-package
   # tvshows
   # webp-quicklook
-  1password-beta
   alfred
   android-file-transfer
+  android-platform-tools
+  android-sdk
   appcleaner
   bartender
-  bittorrent-sync
+  resilio-sync
   # Applications
   1password
   a-better-finder-rename
@@ -64,53 +65,42 @@ casks=(
   cleanmymac
   codekit
   colorpicker-skalacolor
-  consul
   cornerstone
   dash
   dropbox
   dropzone
   evernote
   fantastical
-  easysimbl
   fastscripts
   firefox
-  flash
-  giffun
   github
   google-chrome
-  google-drive
-  gopro-studio
+  google-drive-file-stream
   growlnotify
   handbrake
   hipchat
   imageoptim
-  intellij-idea-bundled-jdk
+  intellij-idea
   iterm2
-  jenkins-lts
+  java
   jeromelebel-mongohub
-  jing
   kaleidoscope
-  ksdiff
   launchrocket
   little-snitch
   macdown
-  packer
   path-finder
   postbox
   quicklook-csv
   radiant-player
-  remote-desktop-connection
-  screenhero
   sequel-pro
   skype
   slack
   sourcetree
   spectacle
   ssh-tunnel-manager
-  sublime-text3
+  sublime-text
   suspicious-package
   teamviewer
-  totalfinder
   totals2
   transmission
   transmit
@@ -121,7 +111,7 @@ casks=(
   vlc
   waltr
   xquartz
-  xscope3
+  xscope
 
   #Fonts
   font-source-code-pro
@@ -132,28 +122,19 @@ casks=(
   karabiner
   launchbar
   macvim
-  menumeters
   midi-monitor
   moom
   omnidisksweeper
   race-for-the-galaxy
   reaper
-  scroll-reverser
-  seil
-  sonos
   spotify
-  star-realms
   steam
-  synology-assistant
   the-unarchiver
-  todoist
   tower
   transmission-remote-gui
   tunnelblick
   ynab
   # Drivers
-  d235j-xbox360-controller-driver
-  betterzipql
   qlcolorcode
   qlmarkdown
   qlprettypatch

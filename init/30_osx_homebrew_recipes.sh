@@ -6,9 +6,7 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
-  android-platform-tools
   ansible
-  android-sdk
   ant
   apr
   apr-util
@@ -18,8 +16,6 @@ recipes=(
   awscli
   bash
   boost
-  boot2docker
-  brew-cask
   cairo
   cmatrix
   consul
@@ -34,7 +30,6 @@ recipes=(
   emacs
   eot-utils
   ffmpeg
-  fig
   fontconfig
   fontforge
   freetype
@@ -50,7 +45,6 @@ recipes=(
   graphviz
   harfbuzz
   highlight
-  htop-osx
   hub
   icu4c
   id3tool
@@ -72,17 +66,13 @@ recipes=(
   man2html
   maven
   mercurial
-  mod_fastcgi
   mysql
-  mysql-connector-c
-  mysql-connector-java
   nmap
   oniguruma
   openssl
   p7zip
   pango
   pcre
-  php55
   php56
   php56-opcache
   pixman
@@ -110,6 +100,10 @@ recipes=(
   youtube-dl
   zeromq
   zlib
+  thefuck
+  vault
+  envconsul
+  packer
 )
 
 brew_install_recipes
