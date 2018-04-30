@@ -85,6 +85,7 @@ casks=(
   java
   jeromelebel-mongohub
   kaleidoscope
+  keepingyouawake
   launchrocket
   little-snitch
   macdown
@@ -110,6 +111,7 @@ casks=(
   viscosity
   vlc
   waltr
+  whatsapp
   xquartz
   xscope
 
