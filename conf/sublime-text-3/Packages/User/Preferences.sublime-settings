@@ -2,7 +2,7 @@
 	"auto_complete_selector": "source, text",
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Hero Dark (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Hero/Hero Dark.tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"draw_white_space": "all",
@@ -13,7 +13,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Makefile"
 	],
 	"indent_guide_options":
 	[

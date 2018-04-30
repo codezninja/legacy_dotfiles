@@ -31,6 +31,8 @@ alias cm='cmatrix -a -u 5 -s; clear'
 
 #git pull all deployment repos
 alias gitpulldeploy='find . -type d -maxdepth 1 -name "*-deployment" | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
+alias gitpulle2e='find . -type d -maxdepth 1 -name "*-e2e-tests" | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
+alias gitpulltests='find . -type d -maxdepth 1 -name "*-tests" | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
 alias gitpullall='find . -name .git -type d -maxdepth 2 -exec dirname {} \; | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
 
 dockertail() {
@@ -47,3 +49,7 @@ usage="dockertail (dev|pro) (tomcat | loggly | datadog) ip_address"
 eval $(thefuck --alias)
 
 alias mvndev='BUILD_VERSION=dev mvn package'
+
+alias backup_consul='consul kv export vikings/ > ~/Backups/$(date +"%Y")/consul_backup_$(date +"%m%d%Y").json'
+
+alias be='bundle exec'

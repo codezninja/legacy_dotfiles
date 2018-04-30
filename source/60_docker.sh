@@ -30,7 +30,7 @@
 #   # Execute docker with all arguments.
 #   DOCKER "$@"
 # }
-alias docker='docker --tlsverify=false'
+# alias docker='docker --tlsverify=false'
 alias d="docker"
 alias dm='docker-machine'
 
