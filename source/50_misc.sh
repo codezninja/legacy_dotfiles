@@ -29,12 +29,6 @@ export ANSIBLE_NOCOWS=1
 #CMatrix Shortcut
 alias cm='cmatrix -a -u 5 -s; clear'
 
-#git pull all deployment repos
-alias gitpulldeploy='find . -type d -maxdepth 1 -name "*-deployment" | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
-alias gitpulle2e='find . -type d -maxdepth 1 -name "*-e2e-tests" | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
-alias gitpulltests='find . -type d -maxdepth 1 -name "*-tests" | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
-alias gitpullall='find . -name .git -type d -maxdepth 2 -exec dirname {} \; | while read d; do echo -n "$(basename $d)  -  "; git -C $d pull; done'
-
 dockertail() {
 usage="dockertail (dev|pro) (tomcat | loggly | datadog) ip_address"
   if [ $# -ne 3 ]
