@@ -104,6 +104,7 @@ recipes=(
   vault
   envconsul
   packer
+  jenv
 )
 
 brew_install_recipes

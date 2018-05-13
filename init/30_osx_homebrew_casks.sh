@@ -145,6 +145,7 @@ casks=(
   quicknfo
   webpquicklook
   colorpicker-developer
+  divvy
 )
 
 # Install Homebrew casks.
