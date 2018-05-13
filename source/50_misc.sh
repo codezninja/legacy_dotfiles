@@ -47,3 +47,4 @@ alias mvndev='BUILD_VERSION=dev mvn package'
 alias backup_consul='consul kv export vikings/ > ~/Backups/$(date +"%Y")/consul_backup_$(date +"%m%d%Y").json'
 
 alias be='bundle exec'
+alias tf='terraform'
