@@ -9,7 +9,6 @@ kegs=(
   caskroom/cask
   caskroom/versions
   caskroom/fonts
-  homebrew/dupes
   )
 brew_tap_kegs
 # recipes=(brew-cask)
