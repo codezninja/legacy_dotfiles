@@ -1,3 +1,11 @@
-source ~/.alks
-source ~/.vault_aliases
-source ~/.work_stuff
+declare -a arr=("~/.alks"
+                "~/.vault_aliases"
+                "~/.work_stuff"
+                )
+
+for f in "${arr[@]}"
+do
+  if [ -f $f ]; then
+    source "$f"
+  fi
+done
