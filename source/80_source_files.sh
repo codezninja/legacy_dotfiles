@@ -1,11 +1,11 @@
-declare -a arr=("~/.alks"
-                "~/.vault_aliases"
-                "~/.work_stuff"
+declare -a arr=("${HOME}/.alks"
+                "${HOME}/.vault_aliases"
+                "${HOME}/.work_stuff"
                 )
 
 for f in "${arr[@]}"
 do
-  if [ -f $f ]; then
+  if [ -e "$f" ]; then
     source "$f"
   fi
 done
