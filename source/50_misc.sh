@@ -42,9 +42,34 @@ usage="dockertail (dev|pro) (tomcat | loggly | datadog) ip_address"
 
 eval $(thefuck --alias)
 
-alias mvndev='BUILD_VERSION=dev mvn package'
+alias mvndev='BUILD_VERSION=dev mvn clean package'
 
 alias backup_consul='consul kv export vikings/ > ~/Backups/$(date +"%Y")/consul_backup_$(date +"%m%d%Y").json'
 
 alias be='bundle exec'
 alias tf='terraform'
+
+
+urlencode() {
+    # urlencode <string>
+    old_lc_collate=$LC_COLLATE
+    LC_COLLATE=C
+
+    local length="${#1}"
+    for (( i = 0; i < length; i++ )); do
+        local c="${1:i:1}"
+        case $c in
+            [a-zA-Z0-9.~_-]) printf "$c" ;;
+            *) printf '%%%02X' "'$c" ;;
+        esac
+    done
+
+    LC_COLLATE=$old_lc_collate
+}
+
+urldecode() {
+    # urldecode <string>
+
+    local url_encoded="${1//+/ }"
+    printf '%b' "${url_encoded//%/\\x}"
+}
