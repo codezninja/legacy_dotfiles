@@ -22,9 +22,7 @@ alias gcb='gc -b'
 alias gbc='gc -b' # Dyslexia
 alias gr='git remote'
 alias grv='gr -v'
-#alias gra='git remote add'
 alias grr='git remote rm'
-alias gcl='git clone'
 alias gcd='git rev-parse 2>/dev/null && cd "./$(git rev-parse --show-cdup)"'
 alias gfum='git fetch upstream'
 
@@ -44,6 +42,21 @@ function ged() {
   gcd
   q "${files[@]}"
   cd - > /dev/null
+}
+
+# git clone directory into specific folders based on hostname/user/repo
+function gcl() {
+  re="^(https|git)(:\/\/|@)([^\/:]+)[\/:]([^\/:]+)\/(.+).git$"
+  if [[ $1 =~ $re ]]; then
+      protocol=${BASH_REMATCH[1]}
+      separator=${BASH_REMATCH[2]}
+      hostname=${BASH_REMATCH[3]}
+      user=${BASH_REMATCH[4]}
+      repo=${BASH_REMATCH[5]}
+  fi
+  dir="$HOME/Repos/$hostname/$user/"
+  echo "Creating directories ($dir) to clone repo in"
+  mkdir -p $dir && cd $dir && git clone $1
 }
 
 # add a github remote by github username

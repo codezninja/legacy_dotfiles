@@ -33,7 +33,6 @@ npm_globals=(
   grunt-cli
   grunt-init
   linken
-  node-inspector
   pushstate-server
   yo
 )

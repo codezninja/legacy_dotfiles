@@ -4,53 +4,58 @@ is_osx || return 1
 # Exit if Homebrew is not installed.
 [[ ! "$(type -P brew)" ]] && e_error "Brew recipes need Homebrew to install." && return 1
 
+kegs=(
+  liamg/tfsec
+  )
+brew_tap_kegs
+
 # Homebrew recipes
 recipes=(
   ansible
-  ant
-  apr
-  apr-util
-  autoconf
-  automake
-  aws-elasticbeanstalk
+  #ant
+  #apr
+  #apr-util
+  #autoconf
+  #automake
   awscli
   bash
-  boost
-  cairo
+  #boost
+  #cairo
   cmatrix
   consul
   consul-template
   cowsay
-  czmq
-  dnsmasq
+  imagemagick
+  #czmq
+  #dnsmasq
   docker
   docker-compose
-  docker-machine
-  dvm
-  emacs
-  eot-utils
+  #docker-machine
+  #dvm
+  #eot-utils
   ffmpeg
   fontconfig
   fontforge
   freetype
-  gd
-  gdbm
-  gettext
+  #gd
+  #gdbm
+  #gettext
   git
   git-extras
   glib
   go
   gobject-introspection
   gradle
-  graphviz
-  harfbuzz
-  highlight
-  hub
-  icu4c
-  id3tool
+  rbenv/tap/openssl@1.0
+  #graphviz
+  #harfbuzz
+  #highlight
+  #hub
+  #icu4c
+  #id3tool
   jpeg
   jq
-  lame
+  #lame
   lesspipe
   libevent
   libffi
@@ -61,35 +66,32 @@ recipes=(
   libvo-aacenc
   libxml2
   libyaml
-  liquibase
-  lua
-  man2html
+  #liquibase
+  #lua
+  #man2html
   maven
-  mercurial
   mysql
-  nmap
-  oniguruma
+  #nmap
+  #oniguruma
   openssl
-  p7zip
-  pango
-  pcre
-  php56
-  php56-opcache
-  pixman
-  pkg-config
-  pstree
+  #p7zip
+  #pango
+  #pcre
+  #php56
+  #php56-opcache
+  #pixman
+  #pkg-config
+  #pstree
   python
   readline
   reattach-to-user-namespace
-  sl
-  sqlite
+  #sl
+  #sqlite
   ssh-copy-id
-  subversion
   terminal-notifier
-  terraform
-  the_silver_searcher
+  tfenv
+  #the_silver_searcher
   tmux
-  tomcat
   tree
   unar
   unixodbc
@@ -97,14 +99,19 @@ recipes=(
   x264
   xvid
   xz
-  youtube-dl
-  zeromq
+  #youtube-dl
+  #zeromq
   zlib
-  thefuck
   vault
   envconsul
   packer
   jenv
+  pre-commit
+  gawk
+  terraform-docs
+  tflint
+  tfsec
+  coreutils
 )
 
 brew_install_recipes
