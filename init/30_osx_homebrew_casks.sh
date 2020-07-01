@@ -57,7 +57,6 @@ casks=(
   bettertouchtool
   #charles
   #chromium
-  clamxav
   codekit
   colorpicker-skalacolor
   #cornerstone

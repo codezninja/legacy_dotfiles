@@ -23,3 +23,10 @@ function dotfiles() {
 }
 
 src
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /Users/ezbon.jacob/Repos/ghe.coxautoinc.com/MAN-VIKings/image-order-processor/node_modules/tabtab/.completions/serverless.bash ] && . /Users/ezbon.jacob/Repos/ghe.coxautoinc.com/MAN-VIKings/image-order-processor/node_modules/tabtab/.completions/serverless.bash
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /Users/ezbon.jacob/Repos/ghe.coxautoinc.com/MAN-VIKings/image-order-processor/node_modules/tabtab/.completions/sls.bash ] && . /Users/ezbon.jacob/Repos/ghe.coxautoinc.com/MAN-VIKings/image-order-processor/node_modules/tabtab/.completions/sls.bash
