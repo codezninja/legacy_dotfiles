@@ -11,3 +11,5 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 [[ "$(type -P python3)" ]] && export PATH="$(python3 -m  site --user-base)/bin:$PATH"
 
 eval "$(jenv init -)"
+
+function terraform-compliance { docker run --rm -v $(pwd):/target -i -t eerkunt/terraform-compliance "$@"; }

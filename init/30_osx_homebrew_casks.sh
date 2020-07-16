@@ -120,6 +120,7 @@ casks=(
   quicknfo
   #webpquicklook
   divvy
+  postman
 )
 
 # Install Homebrew casks.

@@ -1,0 +1,6 @@
+#! /bin/bash
+[[ -z $1 ]] && echo "Must supply an instance name" && exit 1
+INSTANCE_ID=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=$1" --output text --query 'Reservations[*].Instances[*].InstanceId')
+[[ -z $INSTANCE_ID ]] && echo "Could not find instance ID for $1" && exit 2
+echo Connecting to $INSTANCE_ID
+aws ssm start-session --target "$INSTANCE_ID"
