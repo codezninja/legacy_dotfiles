@@ -30,6 +30,8 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 
 # Homebrew casks
 casks=(
+  1password
+  firefox
   # betterzipql
   # Color pickers
   # colorpicker-developer
@@ -65,7 +67,7 @@ casks=(
   fantastical
   #fastscripts
   github
-  google-drive-file-stream
+  #google-drive-file-stream
   growlnotify
   handbrake
   imageoptim
@@ -130,5 +132,5 @@ if (( ${#casks[@]} > 0 )); then
   for cask in "${casks[@]}"; do
     brew cask install $cask
   done
-  brew cask cleanup
+  brew cleanup
 fi
