@@ -123,6 +123,7 @@ casks=(
   #webpquicklook
   divvy
   postman
+  keybase
 )
 
 # Install Homebrew casks.

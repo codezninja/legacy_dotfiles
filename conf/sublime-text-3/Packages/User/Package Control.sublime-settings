@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Autoprefixer"
 	],
 	"installed_packages":
 	[
@@ -28,14 +27,17 @@
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"EJS 2",
+		"ESLint",
 		"Function Name Display",
 		"Git",
 		"GitGutter",
 		"Google Spell Check",
 		"Groovy Snippets",
 		"Grunt",
+		"HTML-CSS-JS Prettify",
 		"Increment Selection",
 		"IntelliDocs",
+		"JavaIME",
 		"JSONLint",
 		"LESS",
 		"Line Endings Unify",
@@ -46,8 +48,11 @@
 		"One Dark Material - Theme",
 		"Package Control",
 		"Pretty JSON",
+		"Pretty YAML",
 		"Puppet",
 		"Random Everything",
+		"RawLineEdit",
+		"React IDE",
 		"Ruby Completions",
 		"Sass",
 		"SFTP",
@@ -55,6 +60,7 @@
 		"Stringify",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-cloudformation",
 		"SublimeLinter-contrib-terraform",
 		"SublimeLinter-jshint",
 		"SublimeLinter-php",

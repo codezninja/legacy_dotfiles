@@ -46,6 +46,7 @@ recipes=(
   go
   gobject-introspection
   gradle
+  gpg2
   rbenv/tap/openssl@1.0
   #graphviz
   #harfbuzz

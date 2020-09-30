@@ -173,3 +173,5 @@ if is_osx; then
     fi
   }
 fi
+
+function gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}

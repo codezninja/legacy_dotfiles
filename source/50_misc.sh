@@ -68,3 +68,17 @@ urldecode() {
     local url_encoded="${1//+/ }"
     printf '%b' "${url_encoded//%/\\x}"
 }
+
+export_aws(){
+  # usage: export_aws filename.csv
+  # default will be set to credentials.csv if not specified
+  file="${1:-credentials.csv}"
+  echo "export creds from ${file}"
+  export AWS_ACCESS_KEY_ID=$(tail -1 ${file} | cut -d, -f 1 | tr -d '\040\011\012\015')
+  export AWS_SECRET_ACCESS_KEY=$(tail -1 ${file} | cut -d, -f 2 | tr -d '\040\011\012\015')
+}
+
+clear_aws() {
+  # clear out all AWS_* environmnet variables
+  unset $(env | grep -i ^aws | awk -F= '{print $1}')
+}

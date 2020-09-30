@@ -13,3 +13,6 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 eval "$(jenv init -)"
 
 function terraform-compliance { docker run --rm -v $(pwd):/target -i -t eerkunt/terraform-compliance "$@"; }
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
