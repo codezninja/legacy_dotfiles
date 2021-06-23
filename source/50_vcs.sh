@@ -16,7 +16,7 @@ alias gm='git commit -m'
 alias gma='git commit -am'
 alias gb='git branch'
 alias gba='git branch -a'
-function gc() { git checkout "${@:-master}"; } # Checkout master by default
+function gc() { git checkout "${@:-main}"; } # Checkout main by default
 alias gco='gc'
 alias gcb='gc -b'
 alias gbc='gc -b' # Dyslexia
@@ -25,6 +25,7 @@ alias grv='gr -v'
 alias grr='git remote rm'
 alias gcd='git rev-parse 2>/dev/null && cd "./$(git rev-parse --show-cdup)"'
 alias gfum='git fetch upstream'
+alias gbd='git branch --merged | egrep -v "(^\*|main|dev)" | xargs git branch -D'
 
 # Current branch or SHA if detached.
 alias gbs='git branch | perl -ne '"'"'/^\* (?:\(detached from (.*)\)|(.*))/ && print "$1$2"'"'"''
@@ -73,9 +74,17 @@ function gra() {
 function gurl() {
   local remotename="${@:-origin}"
   local remote="$(git remote -v | awk '/^'"$remotename"'.*\(push\)$/ {print $2}')"
+  re="^(https|git)(:\/\/|@)([^\/:]+)[\/:]([^\/:]+)\/(.+).git$"
+  if [[ $remote =~ $re ]]; then
+      protocol=${BASH_REMATCH[1]}
+      separator=${BASH_REMATCH[2]}
+      hostname=${BASH_REMATCH[3]}
+      user=${BASH_REMATCH[4]}
+      repo=${BASH_REMATCH[5]}
+  fi
   [[ "$remote" ]] || return
-  local user_repo="$(echo "$remote" | perl -pe 's/.*://;s/\.git$//')"
-  echo "https://github.com/$user_repo"
+
+  echo "https://$hostname/$user/$repo"
 }
 # GitHub URL for current repo, including current branch + path.
 alias gurlp='echo $(gurl)/tree/$(gbs)/$(git rev-parse --show-prefix)'

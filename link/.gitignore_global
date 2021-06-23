@@ -63,3 +63,26 @@ Desktop.ini
 *.sublime-project
 vendor/
 .bundle
+
+*.pem
+*.der
+
+# VSCode
+.settings
+.factorypath
+.vscode
+pyvenv.cfg
+
+.gradle
+.project
+
+# Terraform
+.terraform/
+tfplan
+*.tfstate
+*.tfstate.backup
+
+.devcontainer
+
+.classpath
+r10k.yaml

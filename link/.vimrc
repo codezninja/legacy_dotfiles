@@ -5,3 +5,5 @@ source $HOME/.vim/config/misc.vimrc
 source $HOME/.vim/config/mappings.vimrc
 source $HOME/.vim/config/regex.vim
 source $HOME/.vim/config/nerdtree.vimrc
+
+set nofixeol

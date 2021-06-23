@@ -77,3 +77,4 @@ augroup file_types
 
 augroup END
 
+let g:gitgutter_async=0

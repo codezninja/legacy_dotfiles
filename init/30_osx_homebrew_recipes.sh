@@ -6,6 +6,7 @@ is_osx || return 1
 
 kegs=(
   liamg/tfsec
+  hashicorp/tap
   )
 brew_tap_kegs
 
@@ -113,6 +114,7 @@ recipes=(
   tflint
   tfsec
   coreutils
+  hashicorp/tap/waypoint
 )
 
 brew_install_recipes
