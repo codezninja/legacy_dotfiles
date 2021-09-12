@@ -82,3 +82,7 @@ clear_aws() {
   # clear out all AWS_* environmnet variables
   unset $(env | grep -i ^aws | awk -F= '{print $1}')
 }
+
+clear_terraform() {
+  find . -type d -name .terraform -exec rm -rf {} \;
+}

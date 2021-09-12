@@ -86,3 +86,9 @@ tfplan
 
 .classpath
 r10k.yaml
+
+venv
+.venv
+rds.cert
+
+node_modules/
